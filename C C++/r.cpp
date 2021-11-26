@@ -3,7 +3,7 @@ using namespace std;
 
 int outofMatrix(int row, int column, int m, int n)
 {
-    //all cases for index to be out of matrix
+    //all cases for index to be out of  matrix
     if (row < 0)
         return 1;
 
@@ -36,7 +36,7 @@ void exitInMatrix(int **a, int m, int n)
     }
 
     while (!outofMatrix(next_row, next_column, m, n))
-    { //until we haven't exited
+    { //until we haven"t exited
         //update current_column, current_row
         current_column = next_column;
         current_row = next_row;
